@@ -26,3 +26,14 @@ Real-Time KPI Processor (Python)
 SQLite Database
 ↓
 Power BI Dashboard
+
+Real-Time Order Data Schema
+
+order_id           : string
+timestamp          : datetime
+user_id            : string
+store_id           : string
+order_value        : float
+payment_status     : success / failed
+delivery_time_min  : int
+city               : string
