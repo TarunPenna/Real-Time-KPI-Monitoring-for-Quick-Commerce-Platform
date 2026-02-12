@@ -1,2 +1,28 @@
-# Real-Time-KPI-Monitoring-for-Quick-Commerce-Platform
-Build a real-time KPI monitoring system that tracks operational and revenue metrics using simulated live transaction data.
+# Real-Time KPI Monitoring System for Quick-Commerce
+
+##  Business Context
+Quick-commerce platforms (e.g., Instacart, Blinkit, Uber Eats) require real-time
+visibility into order flow, revenue, and payment reliability.
+Delays in detecting issues can directly impact customer experience and revenue.
+
+## Project Objective
+To build a real-time KPI monitoring system that simulates live order data,
+processes it continuously, and displays business-critical metrics for
+operational decision-making.
+
+## Key KPIs Tracked
+- Orders per Minute
+- Total Revenue
+- Average Order Value (AOV)
+- Payment Success Rate
+- Failed Transactions per Minute
+- Active Users (Last 5 Minutes)
+
+## System Architecture
+Order Data Generator (Python)
+↓
+Real-Time KPI Processor (Python)
+↓
+SQLite Database
+↓
+Power BI Dashboard
