@@ -1,7 +1,7 @@
 # Real-Time KPI Monitoring System for Quick-Commerce
 
 ##  Business Context
-Quick-commerce platforms (e.g., Instacart, Blinkit, Uber Eats) require real-time
+Quick-commerce platforms (e.g., DoorDash, Instacart, Blinkit, Uber Eats) require real-time
 visibility into order flow, revenue, and payment reliability.
 Delays in detecting issues can directly impact customer experience and revenue.
 
