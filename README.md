@@ -27,7 +27,7 @@ SQLite Database
 ↓
 Power BI Dashboard
 
-Real-Time Order Data Schema
+## Real-Time Order Data Schema
 
 order_id           : string
 timestamp          : datetime
